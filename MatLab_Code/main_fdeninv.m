@@ -1,18 +1,27 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% A wavenumber-domain iterative approach for apparent density mapping of an undulant layer
+% Author: Lianghui Guo (guolh@cugb.edu.cn)
+% Organization: China University of Geosciences (Beijing), School of Geophysics and Information Technology
+% Compiled version: MATLAB R2017b
+% Reference:
+%       Guo L H, Shi L, Li S L. A wavenumber-domain iterative approach for apparent density
+%       mapping of an undulant layer and its application in central south China. Geophysics, 2019,
+%       84(1): G1-G11.
 % Description of the input parameters: 
-%       infile_anoï¼šobserved anomaly data file, unit: mGal
-%       infile_h1ï¼štop depth data file, unit: m
-%       infile_h2ï¼šbottom depth data file, unit: m
-%		pbï¼š2.67ï¼Œbackground density, unit: g/cm^3
-%       h0ï¼šheight of observation surface, unit: m
-%       nnï¼šseries
-%       niï¼šnumber of internal iterations
-%       iterï¼šnumber of external iterations
+%       infile_ano£ºobserved anomaly data file, unit: mGal
+%       infile_h1£ºtop depth data file, unit: m
+%       infile_h2£ºbottom depth data file, unit: m
+%		pb£º2.67£¬background density, unit: g/cm^3
+%       h0£ºheight of observation surface, unit: m
+%       nn£ºseries
+%       ni£ºnumber of internal iterations
+%       iter£ºnumber of external iterations
 % Description of the output parameters: 
-%       outfile_pï¼šapparent density, unit: g/cm^3
-%       outfile_calï¼šcalculated anomaly, unit: mGal
-%       outfile_resï¼šresidual anomaly, unit: mGal
-%       outfile_rmsï¼šroot mean square (rms), unit: mGal
-% Description of primary identifiersï¼š
+%       outfile_p£ºapparent density, unit: g/cm^3
+%       outfile_cal£ºcalculated anomaly, unit: mGal
+%       outfile_res£ºresidual anomaly, unit: mGal
+%       outfile_rms£ºroot mean square (rms), unit: mGal
+% Description of primary identifiers£º
 %       x, y: x, y verctor
 %       nx, ny: number of points in x and y directions
 %       dx, dy: spacing in x and y directions
@@ -23,7 +32,7 @@
 %       pcal: apparent density
 %       cal: calculated anomaly
 %       res: residual anomaly
-%       errorï¼šroot mean square (rms)
+%       error£ºroot mean square (rms)
 % Description of subroutine function: 
 %       readgrd.m: read surfer text grd file
 %       fdeninv.m: inversion    
