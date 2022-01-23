@@ -5,7 +5,7 @@ A wavenumber-domain iterative approach for apparent density mapping of an undula
 Developed by Lianghui Guo.
 
 # Principles
-ADMapping is a Matlab code of a wavenumber-domain iterative approach for mapping a density distribution of the undulant layer, whose top and bottom interfaces could be a variable relief. The wavenumber-domain approach requires that the observational surface of the gravity data is flat and horizontal. The wavenumber-domain equations for forward calculation of the gravity anomaly due to the undulant layer and its inversion are presented. A damping factor is adopted in the inversion equation for suppressing high-frequency noise in the data and stabilizing the mapping. We use an iterative algorithm for mapping to minimize the difference between the observed and calculated gravity anomalies and to optimize the density values within the layer. The presented approach is simple, fast, stable, and easy to operate. 
+ADMapping is a Matlab code of a wavenumber-domain iterative approach for mapping a density distribution of the undulant layer, whose top and bottom interfaces could be a variable relief. The wavenumber-domain approach requires that the observational surface of the gravity data is flat and horizontal. The wavenumber-domain equations for forward calculation of the gravity anomaly due to the undulant layer and its inversion are presented in the reference of Guo et al (Geophysics, 2019). 
 
 # Prerequisites
 
